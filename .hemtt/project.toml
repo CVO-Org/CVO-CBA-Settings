@@ -1,0 +1,15 @@
+name = "CVO CBA Settings Servermod"
+prefix = "cvo-set"
+mainprefix = "z"
+
+[properties]
+author = "CVO Team - Mr. Zorn"
+url = "https://github.com/OverlordZorn/CVO-CBA-Settings"
+
+
+[version]
+# path = "addons/main/script_version.hpp" # Default
+major = 1 # Overrides path when set
+minor = 0
+patch = 0
+# git_hash = 4 # Default: 8
