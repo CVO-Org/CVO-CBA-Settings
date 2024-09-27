@@ -12,4 +12,4 @@ url = "https://github.com/OverlordZorn/CVO-CBA-Settings"
 major = 1 # Overrides path when set
 minor = 0
 patch = 0
-# git_hash = 4 # Default: 8
+git_hash = 2 # Default: 8
