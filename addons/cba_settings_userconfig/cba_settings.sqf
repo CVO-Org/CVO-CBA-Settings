@@ -151,7 +151,7 @@ force force acre_sys_core_ignoreAntennaDirection = false;
 force force acre_sys_core_interference = false;
 force force acre_sys_core_revealToAI = 1;
 force force acre_sys_core_terrainLoss = 0.40031;
-force force acre_sys_core_ts3ChannelName = "ACRE - Server 1";
+force force acre_sys_core_ts3ChannelName = "ACRE";
 force force acre_sys_core_ts3ChannelPassword = "acre1337";
 force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_radio_defaultRadio = "ACRE_PRC343";
@@ -241,53 +241,50 @@ force force L_Align_steadyShake_enabled = true;
 force force L_Immerse_exShake = true;
 force force L_Immerse_force = true;
 force force L_Immerse_recoil = true;
-force force L_Immerse_twitch = true;
+force force L_Immerse_twitch = true;w
 
 // LAxemanns Suppress
-force force L_Suppress_buildup = 0.33;
+force force L_Suppress_buildup = 0.30;
 force force L_Suppress_enabled = true;
 force force L_Suppress_flyByEffects = true;
-force force L_Suppress_flyByIntensity = 0.55;
+force force L_Suppress_flyByIntensity = 0.60;
 force force L_Suppress_halting = true;
 force force L_Suppress_intensity = 0.75;
 force force L_Suppress_playerSwabEnabled = true;
-force force L_Suppress_recovery = 1;
+force force L_Suppress_recovery = 0.8;
 
 
 // TSP Animate
-force force tsp_cba_animate_attachment = false;
+
+// tsp_cba_animate_sling_pos = "[[0.13, 0.9, 0.15], [-90, 40, 70]]";
+
+// TSP Animate
 force force tsp_cba_animate_Bird = false;
-force force tsp_cba_animate_captive = false;
+force force tsp_cba_animate_captive = true;
 force force tsp_cba_animate_compass = false;
 force force tsp_cba_animate_friend = 1;
 force force tsp_cba_animate_grenade = false;
 force force tsp_cba_animate_Jackoff = false;
-force force tsp_cba_animate_ladder = false;
+force force tsp_cba_animate_ladder = true;
 force force tsp_cba_animate_map = true;
-force force tsp_cba_animate_nvg = true;
-force force tsp_cba_animate_object = 0.5;
+force force tsp_cba_animate_nvg = false;
+force force tsp_cba_animate_friend = 1.5;
+force force tsp_cba_animate_object = 0.65;
 force force tsp_cba_animate_poll = 0.25;
 force force tsp_cba_animate_shake = 0;
 force force tsp_cba_animate_sling = false;
 force force tsp_cba_animate_sling_add = false;
 force force tsp_cba_animate_sling_sprint = false;
 force force tsp_cba_animate_Suicide = false;
-force force tsp_cba_animate_throw = true;
+force force tsp_cba_animate_throw = false;
 force force tsp_cba_animate_walk = false;
 force force tsp_cba_animate_watch = false;
+force force tsp_cba_animate_tap = false;
+
 force force tsp_cba_radio = true;
-force force tsp_cba_radio_aiming = true;
-force force tsp_cba_radio_vehicle = true;
-force force tsp_cba_radio_vest_armor = true;
-
-
-// TSP Core
-force force tsp_cba_angle = -0.1;
-force force tsp_cba_core_chvd = false;
-force force tsp_cba_core_pause = false;
-force force tsp_cba_hint = "Subtitle";
-force force tsp_cba_hint_distance = 20;
-force force tsp_param_faction = false;
+// force force tsp_cba_radio_aiming = true;
+// force force tsp_cba_radio_vehicle = true;
+// force force tsp_cba_radio_vest_armor = true;
 
 
 // TSP Melee
