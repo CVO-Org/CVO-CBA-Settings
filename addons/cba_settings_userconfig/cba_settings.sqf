@@ -124,11 +124,11 @@ force ace_common_deployedSwayFactor = 1;
 
 // ACE Name Tags
 force force ace_nametags_ambientBrightnessAffectViewDist = 0.8;
-force force ace_nametags_playerNamesMaxAlpha = 0.25;
+force force ace_nametags_playerNamesMaxAlpha = 0.35;
 force force ace_nametags_playerNamesViewDistance = 25;
 force force ace_nametags_showNamesForAI = false;
 force force ace_nametags_showSoundWaves = 1;
-force force ace_nametags_tagSize = 1;
+force force ace_nametags_tagSize = 2;
 
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 1;
