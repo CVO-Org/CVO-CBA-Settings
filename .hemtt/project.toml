@@ -1,5 +1,5 @@
 name = "CVO CBA Settings Servermod"
-prefix = "cvo-set"
+prefix = "cvo_set"
 mainprefix = "z"
 
 [properties]
