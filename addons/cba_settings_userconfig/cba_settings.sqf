@@ -115,12 +115,26 @@ force force ace_medical_treatment_woundReopenChance = 0.8;
 force force ace_medical_treatment_woundStitchTime = 5;
 force force ace_medical_vitals_simulateSpO2 = true;
 
+// ACE Common Weapon Sway
+force ace_common_swayFactor = 1;
+force ace_common_deployedSwayFactor = 0.75;
+force ace_common_restedSwayFactor = 0.75;
+
 // ACE Common
 force ace_common_allowFadeMusic = false;
 force ace_common_checkPBOsAction = 0;
 force ace_common_checkPBOsCheckAll = false;
 force ace_common_checkPBOsWhitelist = "[]";
-force ace_common_deployedSwayFactor = 1;
+
+// ACE Cook off
+force ace_cookoff_ammoCookoffDuration = 2.0;
+force ace_cookoff_destroyVehicleAfterCookoff = true;
+force ace_cookoff_enable = 2;
+force ace_cookoff_enableAmmobox = true;
+force ace_cookoff_enableAmmoCookoff = true;
+force ace_cookoff_enableFire = true;
+force ace_cookoff_probabilityCoef = 2;
+
 
 // ACE Name Tags
 force force ace_nametags_ambientBrightnessAffectViewDist = 0.8;
@@ -138,10 +152,20 @@ force ace_nightvision_fogScaling = 1.1;
 force ace_nightvision_noiseScaling = 1;
 force ace_nightvision_shutterEffects = true;
 
+// ACE Uncategorized hitreactions
+force ace_hitreactions_weaponDropChanceArmHitAI = 0.25;
+force ace_hitreactions_weaponDropChanceArmHitPlayer = 0.1;
+force ace_hitreactions_minDamageToTrigger = 0.1;
+
 // ACE Uncategorized
 force force ace_fastroping_autoAddFRIES = true;
 force force ace_fastroping_requireRopeItems = true;
 force force ace_marker_flags_placeAnywhere = true;
+force force ace_noradio_enabled = true;
+
+// Crows EW
+force crowsEW_spectrum_tfarSideTrack = true;
+force crowsEW_spectrum_selfTracking = true;
 
 
 // ACRE2
