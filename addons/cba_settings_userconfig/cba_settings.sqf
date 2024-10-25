@@ -311,3 +311,6 @@ force zen_common_autoAddObjects = true;
 zen_remote_control_cameraExitPosition = 4;
 force zen_visibility_enabled = 2;
 
+// Weight Limit
+force J3FF_maxWeight = "85";
+force J3FF_medWeight = "75";
