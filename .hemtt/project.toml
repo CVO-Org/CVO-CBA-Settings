@@ -9,7 +9,7 @@ url = "https://github.com/OverlordZorn/CVO-CBA-Settings"
 
 [version]
 # path = "addons/main/script_version.hpp" # Default
-major = 1 # Overrides path when set
-minor = 0
-patch = 1
+# major = 1 # Overrides path when set
+# minor = 0
+# patch = 1
 git_hash = 2 # Default: 8
