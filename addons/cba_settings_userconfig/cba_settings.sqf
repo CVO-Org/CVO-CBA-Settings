@@ -190,11 +190,11 @@ force force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
 force force TFAR_Teamspeak_Channel_Password = "cheesuschrist";
 
 // Advanced Urban Rappelling
-force force AUR_ADVANCED_RAPPELING_ITEMS_NEEDED = 0;
+force force AUR_ADVANCED_RAPPELING_ITEMS_NEEDED = 2;
 force force AUR_ADVANCED_RAPPELING_NEW_ACTION = false;
 force force AUR_ADVANCED_RAPPELING_NEW_ACTION_TIME = 3;
 force force AUR_ADVANCED_RAPPELING_ROPES_HANDLING = 0;
-force force AUR_ADVANCED_RAPPELING_VELOCITY = 1;
+force force AUR_ADVANCED_RAPPELING_VELOCITY = 0.8;
 
 // Advanced Vault System
 force force AVS_Jump_MAINWEAP_X = "4";
