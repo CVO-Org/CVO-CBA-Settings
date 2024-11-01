@@ -9,8 +9,14 @@ let script_version = HEMTT_RFS.join("addons")
 let prefix = "#define PATCH ";
 let current = HEMTT.project().version().patch();
 let next = current + 1;
+let zero = 0;
 
-script_version.replace(prefix + current.to_string(), prefix + next.to_string());
+if (HEMTT.is_release()) {
+    script_version.replace(prefix + current.to_string(), prefix + zero.to_string());
+} else {
+    script_version.replace(prefix + current.to_string(), prefix + next.to_string());
+};
+
 
 // Write the modified contents to script_version.hpp
 HEMTT_RFS.join("addons")
