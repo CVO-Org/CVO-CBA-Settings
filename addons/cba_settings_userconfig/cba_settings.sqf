@@ -212,45 +212,7 @@ force force GRAD_slingHelmet_additionalList = "";
 force force GRAD_slingHelmet_allowAll = true;
 
 // GRAD Trenches
-force force grad_trenches_functions_allowBigEnvelope = true;
-force force grad_trenches_functions_allowCamouflage = true;
-force force grad_trenches_functions_allowDigging = true;
-force force grad_trenches_functions_allowEffects = true;
-force force grad_trenches_functions_allowGiantEnvelope = true;
 force force grad_trenches_functions_allowHitDecay = true;
-force force grad_trenches_functions_allowLongEnvelope = true;
-force force grad_trenches_functions_allowShortEnvelope = true;
-force force grad_trenches_functions_allowSmallEnvelope = true;
-force force grad_trenches_functions_allowTextureLock = true;
-force force grad_trenches_functions_allowTrenchDecay = false;
-force force grad_trenches_functions_allowVehicleEnvelope = true;
-force force grad_trenches_functions_bigEnvelopeDamageMultiplier = 2;
-force force grad_trenches_functions_bigEnvelopeDigTime = 40;
-force force grad_trenches_functions_bigEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_buildFatigueFactor = 1;
-force force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
-force force grad_trenches_functions_createTrenchMarker = false;
-force force grad_trenches_functions_decayTime = 1800;
-force force grad_trenches_functions_giantEnvelopeDamageMultiplier = 1;
-force force grad_trenches_functions_giantEnvelopeDigTime = 90;
-force force grad_trenches_functions_giantEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_hitDecayMultiplier = 1;
-force force grad_trenches_functions_LongEnvelopeDigTime = 100;
-force force grad_trenches_functions_LongEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_playersInAreaRadius = 0;
-force force grad_trenches_functions_shortEnvelopeDamageMultiplier = 2;
-force force grad_trenches_functions_shortEnvelopeDigTime = 15;
-force force grad_trenches_functions_shortEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_smallEnvelopeDamageMultiplier = 3;
-force force grad_trenches_functions_smallEnvelopeDigTime = 30;
-force force grad_trenches_functions_smallEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_stopBuildingAtFatigueMax = true;
-force force grad_trenches_functions_textureLockDistance = 5;
-force force grad_trenches_functions_timeoutToDecay = 7200;
-force force grad_trenches_functions_vehicleEnvelopeDamageMultiplier = 1;
-force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
-force force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
-force force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
 
 // GreenMag
 force force greenmag_main_CBAS_enable = true;
@@ -336,5 +298,5 @@ zen_remote_control_cameraExitPosition = 4;
 force zen_visibility_enabled = 2;
 
 // Weight Limit
-force J3FF_maxWeight = "85";
-force J3FF_medWeight = "75";
+// force J3FF_maxWeight = "85";
+// force J3FF_medWeight = "75";
