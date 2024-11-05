@@ -12,7 +12,7 @@ class CfgPatches {
         
         requiredVersion = 2.02;
         
-        requiredAddons[] = {"cba_settings"};
+        requiredAddons[] = {"cba_main"};
         skipWhenMissingDependencies = 1;
         
         units[] = {};
