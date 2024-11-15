@@ -90,9 +90,11 @@ force ace_hearing_unconsciousnessVolume = 0.4;
 force ace_hearing_autoAddEarplugsToUnits = 1;
 
 // ACE Medical
+force ace_medical_AIDamageThreshold = 0.5;
+force ace_medical_playerDamageThreshold = 1.4;
+
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_ai_requireItems = 0;
-force force ace_medical_AIDamageThreshold = 1.5;
 force force ace_medical_bleedingCoefficient = 0.35;
 force force ace_medical_blood_bloodLifetime = 2400;
 force force ace_medical_blood_enabledFor = 2;
@@ -109,7 +111,6 @@ force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
 force force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_painUnconsciousThreshold = 0.65;
-force force ace_medical_playerDamageThreshold = 2;
 force force ace_medical_spontaneousWakeUpChance = 0.3;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 2.45;
 force force ace_medical_statemachine_AIUnconsciousness = true;
