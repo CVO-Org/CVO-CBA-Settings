@@ -1,6 +1,12 @@
 // OCAP - Main
 force force OCAP_administratorList = "[""76561197970306509""]";
 
+// OCAP - Main
+force OCAP_administratorList = "[]";
+force OCAP_enabled = true;
+force OCAP_isDebug = false;
+
+
 // OCAP - Recorder
 force force OCAP_settings_autoStart = true;
 force force OCAP_settings_frameCaptureDelay = 1;
@@ -22,10 +28,13 @@ force force WBK_DeathAnimMod_Deaths_PLR = true;
 force force WBK_DeathAnimMod_Flinch_AI = true;
 force force WBK_DeathAnimMod_Flinch_PLR = false;
 force force WBK_DeathAnimMod_Hit_AI = true;
-force force WBK_DeathAnimMod_Hit_Chance = "50";
-force force WBK_DeathAnimMod_Hit_Chance_PLR = "20";
+force force WBK_DeathAnimMod_Hit_Chance = "35";
+force force WBK_DeathAnimMod_Hit_Chance_PLR = "35";
 force force WBK_DeathAnimMod_Hit_PLR = true;
 
+// ACE Advanced Vehicle Damage
+force ace_vehicle_damage_enableCarDamage = true;
+force ace_vehicle_damage_enabled = true;
 
 // ACE Advanced Ballistics
 force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
@@ -38,10 +47,47 @@ force force ace_advanced_ballistics_simulationInterval = 0.05;
 // ACE Advanced Fatigue
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 0.8;
+force force ace_advanced_fatigue_loadFactor = 1.3;
 force force ace_advanced_fatigue_performanceFactor = 2;
 force force ace_advanced_fatigue_recoveryFactor = 1.5;
 force force ace_advanced_fatigue_terrainGradientFactor = 0.8;
+
+
+// ACE Explosives
+ace_explosives_customTimerDefault = 30;
+force ace_explosives_customTimerMax = 900;
+force ace_explosives_customTimerMin = 30;
+force ace_explosives_explodeOnDefuse = true;
+force ace_explosives_punishNonSpecialists = true;
+force ace_explosives_requireSpecialist = false;
+
+
+// ACE Fire
+force ace_fire_dropWeapon = 2;
+force ace_fire_enableScreams = true;
+
+
+// ACE Fragmentation Simulation
+force ace_frag_reflectionsEnabled = true;
+force ace_frag_spallEnabled = true;
+
+// ACE Goggles
+force ace_goggles_effects = 2;
+
+// ACE Grenades
+force ace_grenades_convertExplosives = true;
+
+// ACE Hearing
+// force ace_hearing_enableCombatDeafness = true;
+ace_hearing_disableEarRinging = false;
+
+force ace_hearing_earplugsVolume = 0.5;
+
+force ace_hearing_enabledForZeusUnits = true;
+force ace_hearing_explosionDeafnessCoefficient = 0.5;
+
+force ace_hearing_unconsciousnessVolume = 0.4;
+force ace_hearing_autoAddEarplugsToUnits = 1;
 
 // ACE Medical
 force force ace_medical_ai_enabledFor = 2;
@@ -135,6 +181,16 @@ force ace_cookoff_enableAmmoCookoff = true;
 force ace_cookoff_enableFire = true;
 force ace_cookoff_probabilityCoef = 2;
 
+// ACE Quick Mount
+force force ace_quickmount_enabled = true;
+force ace_quickmount_speed = 10;
+
+// ACE Pointing
+force ace_finger_enabled = true;
+force ace_finger_indicatorColor = [0.83,0,0,0.814609];
+force ace_finger_indicatorForSelf = true;
+force ace_finger_maxRange = 6.5;
+force ace_finger_proximityScaling = true;
 
 // ACE Name Tags
 force force ace_nametags_ambientBrightnessAffectViewDist = 0.8;
@@ -171,10 +227,10 @@ force crowsEW_spectrum_selfTracking = true;
 // ACRE2
 force force acre_sys_core_automaticAntennaDirection = true;
 force force acre_sys_core_fullDuplex = true;
-force force acre_sys_core_ignoreAntennaDirection = false;
+force force acre_sys_core_ignoreAntennaDirection = true;
 force force acre_sys_core_interference = false;
 force force acre_sys_core_revealToAI = 1;
-force force acre_sys_core_terrainLoss = 0.40031;
+force force acre_sys_core_terrainLoss = 0.25;
 force force acre_sys_core_ts3ChannelName = "ACRE";
 force force acre_sys_core_ts3ChannelPassword = "acre1337";
 force force acre_sys_core_ts3ChannelSwitch = true;
@@ -300,3 +356,13 @@ force zen_visibility_enabled = 2;
 // Weight Limit
 // force J3FF_maxWeight = "85";
 // force J3FF_medWeight = "75";
+
+
+// CVO
+force CVO_SET_Insignia_on_arsenalClosed = true;
+force CVO_SET_Insignia_on_missionStart = true;
+force CVO_SET_Arsenal_saveOnArsenalClose = true;
+force CVO_SET_Insignia_threshold_SL = 5;
+force CVO_SET_loadPlayerLoadoutOnRespawn = true;
+force CVO_SET_savePlayerLoadoutAtStartBool = true;
+force CVO_SET_savePlayerLoadoutAtStartDelay = 30;
