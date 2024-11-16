@@ -47,10 +47,10 @@ force force ace_advanced_ballistics_simulationInterval = 0.05;
 // ACE Advanced Fatigue
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 1.3;
-force force ace_advanced_fatigue_performanceFactor = 2;
-force force ace_advanced_fatigue_recoveryFactor = 1.5;
-force force ace_advanced_fatigue_terrainGradientFactor = 0.8;
+force ace_advanced_fatigue_loadFactor = 1.8;
+force ace_advanced_fatigue_performanceFactor = 2;
+force ace_advanced_fatigue_recoveryFactor = 1.5;
+force ace_advanced_fatigue_terrainGradientFactor = 0.8;
 
 
 // ACE Explosives
