@@ -210,8 +210,8 @@ force ace_nightvision_noiseScaling = 1;
 force ace_nightvision_shutterEffects = true;
 
 // ACE Uncategorized hitreactions
-force ace_hitreactions_weaponDropChanceArmHitAI = 0.25;
-force ace_hitreactions_weaponDropChanceArmHitPlayer = 0.1;
+force ace_hitreactions_weaponDropChanceArmHitAI = 0.1;
+force ace_hitreactions_weaponDropChanceArmHitPlayer = 0.01;
 force ace_hitreactions_minDamageToTrigger = 0.1;
 
 // ACE Uncategorized
