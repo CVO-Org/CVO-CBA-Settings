@@ -169,9 +169,10 @@ force ace_common_restedSwayFactor = 0.75;
 
 // ACE Common
 force ace_common_allowFadeMusic = false;
-force ace_common_checkPBOsAction = 0;
-force ace_common_checkPBOsCheckAll = false;
-force ace_common_checkPBOsWhitelist = "[]";
+
+force force ace_common_checkPBOsAction = 0;
+force force ace_common_checkPBOsCheckAll = false;
+force force ace_common_checkPBOsWhitelist = "[]";
 
 // ACE Cook off
 force ace_cookoff_ammoCookoffDuration = 2.0;
