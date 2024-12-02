@@ -1,6 +1,6 @@
 name = "CVO CBA Settings Servermod"
 prefix = "cvo_set"
-mainprefix = "z"
+mainprefix = "zrn"
 
 [properties]
 author = "CVO Team - Mr. Zorn"
