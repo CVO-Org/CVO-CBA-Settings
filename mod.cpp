@@ -1,4 +1,4 @@
-name = "CVO CBA Settings";
+name = "CVO CBA Settings {version}";
 
 author = "Overlord Zorn";
 
