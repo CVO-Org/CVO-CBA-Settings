@@ -1,9 +1,6 @@
 // OCAP - Main
 force force OCAP_administratorList = "[""76561197970306509""]";
-
-// OCAP - Main
-force OCAP_administratorList = "[]";
-force OCAP_enabled = true;
+force force OCAP_enabled = true;
 force OCAP_isDebug = false;
 
 
@@ -118,6 +115,12 @@ force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 420;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 1;
+
+force force ace_medical_useLimbDamage = 2;
+
+
+// ACE Medical Treatment
+
 force force ace_medical_treatment_advancedBandages = 2;
 force force ace_medical_treatment_advancedDiagnose = 2;
 force force ace_medical_treatment_advancedMedication = true;
@@ -152,7 +155,7 @@ force force ace_medical_treatment_medicSurgicalKit = 1;
 force force ace_medical_treatment_timeCoefficientPAK = 1.5;
 force force ace_medical_treatment_treatmentTimeAutoinjector = 5;
 force force ace_medical_treatment_treatmentTimeBodyBag = 20;
-force force ace_medical_treatment_treatmentTimeCoeffZeus = 0.1;
+force force ace_medical_treatment_treatmentTimeCoeffZeus = 0.0;
 force force ace_medical_treatment_treatmentTimeCPR = 15;
 force force ace_medical_treatment_treatmentTimeGrave = 40;
 force force ace_medical_treatment_treatmentTimeIV = 12;
@@ -263,7 +266,7 @@ force force AVS_Jump_UNARMED_X = "8";
 force force AVS_Jump_UNARMED_Z = "2.7";
 force force AVS_Jumping = true;
 force force AVS_Rolling = false;
-force force AVS_Sliding = false;
+force force AVS_Sliding = true;
 
 // GRAD slingHelmet
 force force GRAD_slingHelmet_additionalList = "";
@@ -354,10 +357,6 @@ force zen_common_disableGearAnim = true;
 force zen_common_autoAddObjects = true;
 zen_remote_control_cameraExitPosition = 4;
 force zen_visibility_enabled = 2;
-
-// Weight Limit
-// force J3FF_maxWeight = "85";
-// force J3FF_medWeight = "75";
 
 
 // CVO
