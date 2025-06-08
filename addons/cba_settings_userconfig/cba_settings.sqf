@@ -3,7 +3,6 @@ force force OCAP_administratorList = "[""76561197970306509""]";
 force force OCAP_enabled = true;
 force OCAP_isDebug = false;
 
-
 // OCAP - Recorder
 force force OCAP_settings_autoStart = true;
 force force OCAP_settings_frameCaptureDelay = 1;
@@ -30,8 +29,8 @@ force force WBK_DeathAnimMod_Hit_Chance_PLR = "35";
 force force WBK_DeathAnimMod_Hit_PLR = true;
 
 // ACE Advanced Vehicle Damage
-force ace_vehicle_damage_enableCarDamage = true;
-force ace_vehicle_damage_enabled = true;
+force force ace_vehicle_damage_enableCarDamage = true;
+force force ace_vehicle_damage_enabled = true;
 
 // ACE Advanced Ballistics
 force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
@@ -44,10 +43,10 @@ force force ace_advanced_ballistics_simulationInterval = 0.05;
 // ACE Advanced Fatigue
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
-force ace_advanced_fatigue_loadFactor = 1.8;
-force ace_advanced_fatigue_performanceFactor = 2;
-force ace_advanced_fatigue_recoveryFactor = 1.5;
-force ace_advanced_fatigue_terrainGradientFactor = 0.8;
+force force ace_advanced_fatigue_loadFactor = 1.8;
+force force ace_advanced_fatigue_performanceFactor = 2;
+force force ace_advanced_fatigue_recoveryFactor = 1.5;
+force force ace_advanced_fatigue_terrainGradientFactor = 0.8;
 
 
 // ACE Explosives
@@ -60,23 +59,23 @@ force ace_explosives_requireSpecialist = false;
 
 
 // ACE Fire
-force ace_fire_dropWeapon = 2;
-force ace_fire_enableScreams = true;
+force force ace_fire_dropWeapon = 2;
+force force ace_fire_enableScreams = true;
 
 
 // ACE Fragmentation Simulation
-force ace_frag_reflectionsEnabled = true;
-force ace_frag_spallEnabled = true;
+force force ace_frag_reflectionsEnabled = true;
+force force ace_frag_spallEnabled = true;
 
 // ACE Goggles
-force ace_goggles_effects = 2;
+force force ace_goggles_effects = 2;
 
 // ACE Grenades
-force ace_grenades_convertExplosives = true;
+force force ace_grenades_convertExplosives = true;
 
 // ACE Hearing
 // force ace_hearing_enableCombatDeafness = true;
-ace_hearing_disableEarRinging = false;
+force ace_hearing_disableEarRinging = false;
 
 force ace_hearing_earplugsVolume = 0.5;
 
@@ -178,7 +177,7 @@ force force ace_common_checkPBOsCheckAll = false;
 force force ace_common_checkPBOsWhitelist = "[]";
 
 // ACE Cook off
-force ace_cookoff_ammoCookoffDuration = 2.0;
+force ace_cookoff_ammoCookoffDuration = 1.5;
 force ace_cookoff_destroyVehicleAfterCookoff = true;
 force ace_cookoff_enable = 2;
 force ace_cookoff_enableAmmobox = true;
@@ -188,14 +187,14 @@ force ace_cookoff_probabilityCoef = 2;
 
 // ACE Quick Mount
 force force ace_quickmount_enabled = true;
-force ace_quickmount_speed = 10;
+force force ace_quickmount_speed = 10;
 
 // ACE Pointing
-force ace_finger_enabled = true;
-force ace_finger_indicatorColor = [0.83,0,0,0.814609];
-force ace_finger_indicatorForSelf = true;
-force ace_finger_maxRange = 6.5;
-force ace_finger_proximityScaling = true;
+force force ace_finger_enabled = true;
+force force ace_finger_indicatorColor = [0.83,0,0,0.814609];
+force force ace_finger_indicatorForSelf = true;
+force force ace_finger_maxRange = 6.5;
+force force ace_finger_proximityScaling = true;
 
 // ACE Name Tags
 force force ace_nametags_ambientBrightnessAffectViewDist = 0.8;
@@ -214,8 +213,8 @@ force ace_nightvision_noiseScaling = 1;
 force ace_nightvision_shutterEffects = true;
 
 // ACE Uncategorized hitreactions
-force ace_hitreactions_weaponDropChanceArmHitAI = 0.1;
-force ace_hitreactions_weaponDropChanceArmHitPlayer = 0.01;
+force force ace_hitreactions_weaponDropChanceArmHitAI = 0.1;
+force force ace_hitreactions_weaponDropChanceArmHitPlayer = 0.01;
 force ace_hitreactions_minDamageToTrigger = 0.1;
 
 // ACE Uncategorized
@@ -231,15 +230,19 @@ force crowsEW_spectrum_selfTracking = true;
 
 // ACRE2
 force force acre_sys_core_automaticAntennaDirection = true;
-force force acre_sys_core_fullDuplex = true;
 force force acre_sys_core_ignoreAntennaDirection = true;
+
+force force acre_sys_core_fullDuplex = true;
 force force acre_sys_core_interference = false;
 force force acre_sys_core_revealToAI = 0.6;
-force force acre_sys_core_terrainLoss = 0.25;
-force force acre_sys_core_ts3ChannelName = "ACRE";
-force force acre_sys_core_ts3ChannelPassword = "acre1337";
+force force acre_sys_core_terrainLoss = 0.35;
+
 force force acre_sys_core_ts3ChannelSwitch = true;
+force force acre_sys_core_ts3ChannelName = "Game Comms";
+force force acre_sys_core_ts3ChannelPassword = "acre1337";
+
 force force acre_sys_radio_defaultRadio = "ACRE_PRC343";
+
 force force acre_sys_signal_signalModel = 1;
 
 // TFAR - Global settings
@@ -247,8 +250,8 @@ force force TFAR_AICanHearPlayer = true;
 force force TFAR_AICanHearSpeaker = true;
 force force TFAR_SameLRFrequenciesForSide = true;
 force force TFAR_SameSRFrequenciesForSide = true;
-force force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
-force force TFAR_Teamspeak_Channel_Password = "cheesuschrist";
+force force TFAR_Teamspeak_Channel_Name = "Game Comms";
+force force TFAR_Teamspeak_Channel_Password = "acre1337";
 
 // Advanced Urban Rappelling
 force force AUR_ADVANCED_RAPPELING_ITEMS_NEEDED = 2;
@@ -288,7 +291,7 @@ force force L_Align_steadyShake_enabled = true;
 force force L_Immerse_exShake = true;
 force force L_Immerse_force = true;
 force force L_Immerse_recoil = true;
-force force L_Immerse_twitch = true;w
+force force L_Immerse_twitch = true;
 
 // LAxemanns Suppress
 force force L_Suppress_buildup = 0.33;
@@ -360,10 +363,10 @@ force zen_visibility_enabled = 2;
 
 
 // CVO
-force CVO_SET_Insignia_on_arsenalClosed = true;
-force CVO_SET_Insignia_on_missionStart = true;
-force CVO_SET_Arsenal_saveOnArsenalClose = true;
-force CVO_SET_Insignia_threshold_SL = 5;
-force CVO_SET_loadPlayerLoadoutOnRespawn = true;
-force CVO_SET_savePlayerLoadoutAtStartBool = true;
-force CVO_SET_savePlayerLoadoutAtStartDelay = 30;
+// force CVO_SET_Insignia_on_arsenalClosed = true;
+// force CVO_SET_Insignia_on_missionStart = true;
+// force CVO_SET_Arsenal_saveOnArsenalClose = true;
+// force CVO_SET_Insignia_threshold_SL = 5;
+// force CVO_SET_loadPlayerLoadoutOnRespawn = true;
+// force CVO_SET_savePlayerLoadoutAtStartBool = true;
+// force CVO_SET_savePlayerLoadoutAtStartDelay = 30;
