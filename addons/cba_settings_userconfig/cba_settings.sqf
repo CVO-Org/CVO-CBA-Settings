@@ -197,9 +197,9 @@ force force ace_finger_maxRange = 6.5;
 force force ace_finger_proximityScaling = true;
 
 // ACE Name Tags
-force force ace_nametags_ambientBrightnessAffectViewDist = 0.8;
-force force ace_nametags_playerNamesMaxAlpha = 0.35;
-force force ace_nametags_playerNamesViewDistance = 25;
+force force ace_nametags_ambientBrightnessAffectViewDist = 1;
+force force ace_nametags_playerNamesMaxAlpha = 0.45;
+force force ace_nametags_playerNamesViewDistance = 35;
 force force ace_nametags_showNamesForAI = false;
 force force ace_nametags_showSoundWaves = 1;
 force force ace_nametags_tagSize = 2;
