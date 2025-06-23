@@ -13,3 +13,19 @@ url = "https://github.com/OverlordZorn/CVO-CBA-Settings"
 # minor = 0
 # PATCH = 1
 git_hash = 2 # Default: 8
+
+[files]
+include = [
+    "mod.cpp",      # These files are copied to the build directory by default
+    "meta.cpp",     # They do not need to be added to your list
+    "LICENSE",
+    "/img/*.paa",
+    "logo_ca.paa",
+    "logo_co.paa",
+    "*.bikey",
+]
+exclude = [
+    "*.psd",        # By default this list is empty
+    "*.md",
+    "/.vscode/",
+]
