@@ -116,7 +116,7 @@ force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 1;
 
 force force ace_medical_useLimbDamage = 2;
-
+force ace_medical_alternateArmorPenetration = false;
 
 // ACE Medical Treatment
 
