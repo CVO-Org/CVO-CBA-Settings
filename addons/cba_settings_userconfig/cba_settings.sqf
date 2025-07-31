@@ -243,7 +243,7 @@ force force acre_sys_core_ts3ChannelPassword = "acre1337";
 
 force force acre_sys_radio_defaultRadio = "ACRE_PRC343";
 
-force force acre_sys_signal_signalModel = 1;
+force force acre_sys_signal_signalModel = 3;
 
 // TFAR - Global settings
 force force TFAR_AICanHearPlayer = true;
