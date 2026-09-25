@@ -37,3 +37,15 @@ force force tsp_cba_melee_damage = 1;
 force force tsp_cba_melee_disarm = 1;
 force force tsp_cba_melee_speed = 15;
 force force tsp_cba_melee_stamina = 1;
+
+// TSP Breach - Flashbang
+force force tsp_cba_flashbang_brightness = 1;
+force force tsp_cba_flashbang_distance = 10;
+force force tsp_cba_flashbang_fire = true;
+force force tsp_cba_flashbang_friends = 0.1;
+force force tsp_cba_flashbang_intensity = 2.55036;
+force force tsp_cba_flashbang_smoke = true;
+force force tsp_cba_flashbang_sparks = true;
+force force tsp_cba_flashbang_spray = 0.4;
+force force tsp_cba_flashbang_surrender = 0.20;
+force force tsp_cba_flashbang_volume = 5;
