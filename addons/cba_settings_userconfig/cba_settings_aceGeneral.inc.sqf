@@ -20,6 +20,22 @@ force force ace_advanced_fatigue_recoveryFactor = 1.5;
 force force ace_advanced_fatigue_terrainGradientFactor = 0.8;
 
 
+// ACE Arsenal
+force force ace_arsenal_enableIdentityTabs = false;
+force force ace_arsenal_allowSharedLoadouts = true;
+force force ace_arsenal_allowDefaultLoadouts = true;
+
+// ace_arsenal_camInverted = false;
+// ace_arsenal_defaultToFavorites = false;
+// ace_arsenal_enableModIcons = 1;
+// ace_arsenal_EnableRPTLog = false;
+// ace_arsenal_favoritesColor = [0.9,0.875,0.6];
+// ace_arsenal_fontHeight = 4.5;
+// ace_arsenal_loadoutsSaveFace = false;
+// ace_arsenal_loadoutsSaveInsignia = true;
+// ace_arsenal_loadoutsSaveVoice = false;
+// ace_arsenal_showUnavailableItems = 1;
+
 // ACE Explosives
 ace_explosives_customTimerDefault = 30;
 force ace_explosives_customTimerMax = 900;
