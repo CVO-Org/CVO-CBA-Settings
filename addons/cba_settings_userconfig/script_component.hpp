@@ -1,5 +1,5 @@
 #define COMPONENT cba_settings_userconfig
-#define COMPONENT_BEAUTIFIED CVOs Serverside CBA Settings       // This is being used for the Addon's Name and can be "My Addon Template Framework"
+#define COMPONENT_BEAUTIFIED CVOs Serverside CBA Settings
 
 
 #include "\zrn\cvo_set\addons\main\script_mod.hpp"

@@ -1,4 +1,6 @@
+#define MAINPREFIX zrn
 #define PREFIX cvo_set
-#define MAINPREFIX z
+
+#define PREFIX_BEAUTIFIED CVO CBA Settings
 
 #include "script_version.hpp"

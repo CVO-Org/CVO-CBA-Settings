@@ -5,16 +5,16 @@ class CfgPatches {
 
         // Meta information for editor
         name = ADDON_NAME;
-        author = "$STR_mod_author";
+        author = ECSTRING(main,author);
         authors[] = {"OverlordZorn [CVO]"};
         
-        url = "$STR_mod_URL";
+        url = ECSTRING(main,url);
 
         VERSION_CONFIG;
 
         // Addon Specific Information
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game.
-        requiredVersion = 2.02;
+        requiredVersion = REQUIRED_VERSION;
 
         // Required addons, used for setting load order.
         // When any of the addons is missing, pop-up warning will appear when launching the game.

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="mod-template">
+<Project name="cvo_set">
     <Package name="Main">
-        <Key ID="STR_mod_URL">
-            <English>https://github.com/OverlordZorn/ZRN-Template-Mod</English>
+        <Key ID="STR_cvo_set_main_author">
+            <English>CVO Team - Mr. Zorn</English>
         </Key>
-        <Key ID="STR_mod_author">
-            <English>Derp Derpington</English>
+        <Key ID="STR_cvo_set_main_url">
+            <English>https://github.com/CVO-Org/CVO-CBA-Settings</English>
         </Key>
     </Package>
 </Project>

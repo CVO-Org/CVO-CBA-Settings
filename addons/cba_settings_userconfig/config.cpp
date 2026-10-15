@@ -4,17 +4,17 @@ class CfgPatches {
     class cba_settings_userconfig {
         name = "CVOs Serverside CBA Settings";
 
-        author = "Overlord Zorn [CVO]";
+        author = ECSTRING(main,author);
         authors[] = {"commy2", "Overlord Zorn [CVO]"};
-        url = "http://discord.chornivoron.net";
+        url = ECSTRING(main,url);
 
         VERSION_CONFIG;
-        
-        requiredVersion = 2.02;
-        
-        requiredAddons[] = {"cba_main"};
+
+        requiredVersion = REQUIRED_VERSION;
+
+        requiredAddons[] = {QPVAR(main), "cba_main"};
         skipWhenMissingDependencies = 1;
-        
+
         units[] = {};
         weapons[] = {};
     };
@@ -22,4 +22,4 @@ class CfgPatches {
 
 // Uncommenting this will make any changes to "Server" settings be lost upon game restart, applies only to dedicated servers
 // cba_settings_volatile = 1;
- 
+
